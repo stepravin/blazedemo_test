@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="12699" started-at="2021-03-20T15:16:47 GMT" finished-at="2021-03-20T15:16:59 GMT">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.org.ui.TestRunner@46daef40]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="12699" started-at="2021-03-20T15:16:47 GMT" finished-at="2021-03-20T15:16:59 GMT">
+      <class name="com.org.ui.TestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.org.ui.TestRunner@46daef40]" name="setUpClass" is-config="true" duration-ms="450" started-at="2021-03-20T15:16:47 GMT" finished-at="2021-03-20T15:16:47 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.org.ui.TestRunner@46daef40]" name="runScenario" duration-ms="9688" started-at="2021-03-20T15:16:47 GMT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-03-20T15:16:57 GMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check the find flights feature"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Book flights on blazedemo.com]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.org.ui.TestRunner@46daef40]" name="runScenario" duration-ms="698" started-at="2021-03-20T15:16:57 GMT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-03-20T15:16:58 GMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Reserve the flight"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Book flights on blazedemo.com]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.org.ui.TestRunner@46daef40]" name="runScenario" duration-ms="1633" started-at="2021-03-20T15:16:58 GMT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-03-20T15:16:59 GMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Purchase the flight ticket"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Book flights on blazedemo.com]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.org.ui.TestRunner@46daef40]" name="runScenario" duration-ms="111" started-at="2021-03-20T15:16:59 GMT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-03-20T15:16:59 GMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Flight ticket confirmation"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Book flights on blazedemo.com]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.org.ui.TestRunner@46daef40]" name="tearDownClass" is-config="true" duration-ms="87" started-at="2021-03-20T15:16:59 GMT" finished-at="2021-03-20T15:16:59 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.org.ui.TestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

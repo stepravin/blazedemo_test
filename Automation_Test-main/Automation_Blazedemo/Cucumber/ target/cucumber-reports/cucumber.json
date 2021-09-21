@@ -1,0 +1,213 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-03-20T15:16:47.781Z",
+        "line": 3,
+        "name": "Check the find flights feature",
+        "description": "",
+        "id": "book-flights-on-blazedemo.com;check-the-find-flights-feature",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8269000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I launch the blazedemo",
+            "match": {
+              "location": "stepdefinition.FindFlightSteps.i_launch_the_blazedemo()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 364000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I select the depature city",
+            "match": {
+              "location": "stepdefinition.FindFlightSteps.i_select_the_depature_city()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 558000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I select the destination city",
+            "match": {
+              "location": "stepdefinition.FindFlightSteps.i_select_the_destination_city()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 366000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click on find flights button",
+            "match": {
+              "location": "stepdefinition.FindFlightSteps.i_click_on_find_flights_button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-20T15:16:57.360Z",
+        "line": 9,
+        "name": "Reserve the flight",
+        "description": "",
+        "id": "book-flights-on-blazedemo.com;reserve-the-flight",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 28000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I am on reserve page",
+            "match": {
+              "location": "stepdefinition.FindFlightSteps.i_am_on_reserve_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 358000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I see the flight details",
+            "match": {
+              "location": "stepdefinition.FindFlightSteps.i_see_the_flight_details()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 306000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I click on Choose this flight",
+            "match": {
+              "location": "stepdefinition.FindFlightSteps.i_click_on_choose_this_flight()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-20T15:16:58.059Z",
+        "line": 14,
+        "name": "Purchase the flight ticket",
+        "description": "",
+        "id": "book-flights-on-blazedemo.com;purchase-the-flight-ticket",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I am on purchase page",
+            "match": {
+              "location": "stepdefinition.FindFlightSteps.i_am_on_purchase_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1234000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I will the passanger details",
+            "match": {
+              "location": "stepdefinition.FindFlightSteps.i_will_the_passanger_details()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 386000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I click on purchase flight",
+            "match": {
+              "location": "stepdefinition.FindFlightSteps.i_click_on_purchase_flight()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-20T15:16:59.692Z",
+        "line": 19,
+        "name": "Flight ticket confirmation",
+        "description": "",
+        "id": "book-flights-on-blazedemo.com;flight-ticket-confirmation",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 28000000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I am on confirmation page",
+            "match": {
+              "location": "stepdefinition.FindFlightSteps.i_am_on_confirmation_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 49000000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I see the confirmation details",
+            "match": {
+              "location": "stepdefinition.FindFlightSteps.i_see_the_confirmation_details()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 31000000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I see the confirmation Id",
+            "match": {
+              "location": "stepdefinition.FindFlightSteps.i_see_the_confirmation_id()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Book flights on blazedemo.com",
+    "description": "",
+    "id": "book-flights-on-blazedemo.com",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/findFlight.feature",
+    "tags": []
+  }
+]
